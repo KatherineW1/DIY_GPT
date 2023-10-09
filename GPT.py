@@ -11,6 +11,7 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 eval_iters = 200
 n_embd = 32
 
+
 torch.manual_seed(1337)
 
 with open('input.txt','r', encoding='utf-8') as f:
